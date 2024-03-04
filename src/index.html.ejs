@@ -1,0 +1,29 @@
+<% api.inicializar(include) %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing builder</title>
+    <style>
+        <%- await api.requerir("/dev/css/framework.css") %>
+        <%- await api.requerir("/dev/css/styles.css") %>
+    </style>
+    <%
+    if(process.env.NODE_ENV === "test") {
+        %>
+        <script src="js/socket.io-client.js"></script>
+        <script src="js/reloader.js"></script>
+        <%
+    }
+    %>
+</head>
+<body>
+    <%- await api.requerir("/dev/html/header.html") %>
+    <%- await api.requerir("/dev/html/body.html") %>
+    <%- await api.requerir("/dev/html/footer.html") %>
+    <script>
+    <%- await api.requerir("/dev/js/logica.js") %>
+    </script>
+</body>
+</html>

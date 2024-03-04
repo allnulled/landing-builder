@@ -1,0 +1,1 @@
+node ./bin/sync/server.js

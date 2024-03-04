@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Roboto;
+    src: url("fonts/Roboto/Roboto-Regular.ttf");
+}
+html,body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arial Narrow"; 
+}
+html,body {
+    background-color: rgb(0, 0, 0);
+}
+* {
+    box-sizing: border-box;
+}
+
+.capa_1 {
+    background-color: black;
+}
+.capa_2 {
+    padding: 15px;
+    /*
+    background: linear-gradient(180deg,
+    #762422CC 50%,
+     #00000011 100%
+    );
+    /**/
+}
+.capa_3 {
+    padding: 15px;
+    background-color: transparent;
+}
+.capa_4 {
+    /*
+    background: linear-gradient(180deg,
+    #491f1b11 0%,
+        #000000FF 100%
+    );
+    /**/
+    border: 0px solid #FFF;
+}
+.contenedor_de_video_de_fondo {
+    overflow: hidden;
+}
+.video_de_fondo {
+    vertical-align: top;
+    width: 100%;
+    max-width: 450px;
+    height: 100%;
+    min-height: 560px;
+    max-height: 800px;
+}
+/*
+background: linear-gradient(180deg,
+    #ffffff66 0%,
+    #00000066 100%
+);
+*/
+.caja_de_titulos {
+    max-width: 350px;
+    width: 100%;
+}
+#titulo,
+#subtitulo1,
+#subtitulo2,
+#subtitulo3 {
+    display: inline-block;
+    white-space: nowrap;
+    text-transform: lowercase;
+}
+#titulo {
+    padding-bottom: 10px;
+    color: #FFFA;
+}
+#subtitulo1 {
+    padding-bottom: 10px;
+    color: #000A;
+}
+#subtitulo2 {
+    padding-bottom: 10px;
+    color: #000A;
+}
+#subtitulo3 {
+    padding-bottom: 10px;
+    color: #000A;
+}
+
+.caja_de_botones {
+    max-width: 120px;
+}
+.boton {
+    border: none;
+    background-color: #3338;
+    color: #AAA;
+    text-transform: lowercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    font-family: "Arial Narrow";
+    font-size: 16px;
+}
+@media screen and (max-width: 450px) {
+    .boton {
+        font-size: 12px;
+    }
+}
+.boton:hover {
+    color: white;
+    text-shadow: 0 0 4px white;
+}
+#boton_download {
+    background-color: #4638;
+}
+#boton_docs {
+    background-color: #3368;
+}
+
+#boton_download:hover {
+    background-color: #463F;
+}
+#boton_docs:hover {
+    background-color: #336F;
+}
