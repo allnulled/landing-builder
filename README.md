@@ -54,4 +54,3 @@ Todo esto lo puedes personalizar y extender fácilmente en `api.js` y `build.js`
 - El directorio `/bin` guarda los scripts de cada sistema operativo necesarios para servir la aplicación HTML (serve) y trabajar rápido (watch).
 - El directorio `/docs` es donde se escupe la aplicación HTML. Así se puede usar directamente en Github Pages para publicarlo.
 - El directorio `/src` es el que sí contiene el código fuente, y desde donde se trabajaría.
-# landing-builder
