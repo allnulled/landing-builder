@@ -2,7 +2,7 @@
  * @descripción: Se establecen las variables de entorno.
  */
 Object.assign(process.env, {
-  NODE_ENV: "test"
+  NODE_ENV: "production"
 });
 
 /**
